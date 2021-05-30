@@ -23,7 +23,7 @@ store
 
 ## index.d.ts:
 
-我們可以從index底層Store的code,看到有個模板可以轉換成你想要的物件,裡面的<S>就是你定義的型別
+我們可以從index底層Store的code,看到有個模板可以轉換成你想要的物件,裡面的**<S>**就是你定義的型別
 
 ```
 export interface StoreOptions<S> {
@@ -50,7 +50,7 @@ devtools?: boolean;
 
 ## Step1:
 
-開一個type.ts的檔案宣告我們<S>的型別,State本是個放資料的地方,要放資料的地方一定少不了interface,我們就已interface的方式來定義我們的state吧
+開一個type.ts的檔案宣告我們**<S>**的型別,State本是個放資料的地方,要放資料的地方一定少不了interface,我們就已interface的方式來定義我們的state吧
 
 ```
 export interface RootState {
